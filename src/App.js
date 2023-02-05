@@ -4,6 +4,7 @@ import "./App.css";
 import Info from "./components/Info";
 import Testimonials from "./components/Testimonials";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Info />
       <Testimonials />
       <Gallery />
+      <Footer />
     </div>
   );
 };
